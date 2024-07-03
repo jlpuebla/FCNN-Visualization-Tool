@@ -25,8 +25,8 @@
 			>
 				<svelte:fragment slot="lead">
 					<a href="/">Home</a>
-					<a href="/create">Create</a>
-					<a href="/definitions">Definitions</a>
+					<a href="/visualizer/initialize">Visualizer</a>
+					<a href="/information">Information</a>
 				</svelte:fragment>
 			</AppBar>
 		</svelte:fragment>

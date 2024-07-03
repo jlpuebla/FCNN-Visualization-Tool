@@ -1,0 +1,1 @@
+<h1>Activations page.</h1>

@@ -1,1 +1,0 @@
-<h1>This is where you create your visuals!</h1>

@@ -1,3 +1,16 @@
+<script lang="ts">
+	import { onMount } from 'svelte';
+	import { createNeuralNetwork } from '$lib/neuralNetwork';
+
+	
+	onMount( () =>{
+		document.getElementById('btn_train_test')?.addEventListener('click', createNeuralNetwork )
+	})
+
+	
+
+</script>
+
 <div class="rounded-xl p-8">
 	<span class="h2">Initialize Fully-Connected Neural Network</span>
 
@@ -57,5 +70,5 @@
 		</select>
 	</label>
 
-	<a href="#" class="btn variant-filled-surface">Train & Test</a>
+	<a href="#" class="btn variant-filled-surface" id="btn_train_test">Train & Test</a>
 </div>

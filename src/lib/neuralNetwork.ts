@@ -1,7 +1,13 @@
 import * as tf from '@tensorflow/tfjs';
 
-export function createNeuralNetwork() {
+export function createNeuralNetwork(hiddenLayers: any, hiddenNodes:any, hiddenActivationFunction: any, 
+    outputNodes:any, outputActivationFunction: any) {
     console.log('create network here')
+    console.log('hiddenLayers:',hiddenLayers)
+    console.log('hiddenNodes:',hiddenNodes)
+    console.log('hiddenActivationFunction:',hiddenActivationFunction)
+    console.log('outputNodes:',outputNodes)
+    console.log('outputActivationFunction:',outputActivationFunction)
 
     // Define a model for linear regression.
     const model = tf.sequential();
